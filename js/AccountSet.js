@@ -9,7 +9,8 @@ window.onload = function(){
     // 获取星座
     getStar();
     // loadArticle(1);
-   
+//   填充数据
+fillData();
     
 }
 
@@ -95,6 +96,37 @@ document.getElementById("modify-btn").onclick = function(){
     //     }
     // },abc)
 }
+
+// 填充数据
+    //判断是否为登录状态
+ function fillData(){
+     if(token != ''){
+        //  头像
+        document.getElementById("div_img").innerHTML = '<img src="'+img_url+localStorage.avatar+'"width="50px" height="50px" border-radius:"50%" >';
+        //  昵称
+         document.getElementById("new-name").value = localStorage.name;
+        // 性别
+        if(localStorage.gender == "man"){
+            document.getElementById("man-choose").style.display = "";
+            document.getElementById("man-unchoose").style.display = "none";
+            document.getElementById("woman-choose").style.display = "none";
+            document.getElementById("woman-unchoose").style.display = "";
+        }else{
+            document.getElementById("man-choose").style.display = "none";
+            document.getElementById("man-unchoose").style.display = "";
+            document.getElementById("woman-choose").style.display = "";
+            document.getElementById("woman-unchoose").style.display = "none";
+        }
+        // // 星座
+        //  document.getElementById("xing").selectedOptions = localStorage.constellations;
+        // // 城市
+        // document.getElementById("province").selectedOptions = localStorage.province;
+        // // document.getElementById("city").value = localStorage.city1;
+        // // document.getElementById("area").value = localStorage.area;
+
+     }
+ }     
+
 
 // 获取性别值
 function getSex(){
