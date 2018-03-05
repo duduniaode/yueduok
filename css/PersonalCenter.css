@@ -1,0 +1,201 @@
+
+
+/* 页面主体部分开始 */
+ /* 上部分开始 */
+    .upper {
+        width: 100%;
+        height: 228px;
+        background-size: 100% 298px;
+        background-image: url("../img/bg_center.png");
+        padding-top: 70px;
+    }
+    .upper-center {
+       width: 100%;
+    }
+    .master-head {
+        width: 91px;
+        height: 91px;
+        border-radius: 50%;
+        position: relative;
+        background-size: 91px 91px;
+        /* background-image: url("../img/1.gif"); */
+        left: 47.5%;
+    }
+    /* 头像 */
+    .head-img {
+        width: 91px;
+        height: 91px;
+        border-radius: 50%;
+    }
+    /* 性别图片 */
+    .sex-img {
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+        position: absolute;
+        top: 64px;
+        left: 53px;
+    }
+    /* 姓名 */
+    .master-name,.master-details {
+        font-family: PingFangSC-Regular;
+        color: #FFFFFF;
+        letter-spacing: 0;
+    }
+    .master-name {
+        margin-top: 22px;
+        font-size: 18px;
+    }
+    .master-details {
+        /* width: 105px; */
+        margin-top: 7px;
+        font-size: 14px;
+    }
+    .master-city {
+        margin-right: 20px;
+    }
+ /* 上部分结束 */
+ /* 下部分开始 */
+    /* 文章数量 */
+    .article-num {
+        width: 998px;
+        margin-top: 15px;
+        padding:12px 0px;
+        border-bottom: 1px solid rgba(127,74,136,0.5);
+        margin: 17px auto;
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        color: #222629;
+        letter-spacing: 0;
+    }
+    /* 文章列表开始 */
+    .list>li {
+        display: inline-block;
+        width: 998px;
+        height: 241px;
+        margin-bottom: 20px;
+        background: #FFFFFF;
+        border: 1px solid #F0E9F1;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+        border-radius: 2px;
+    }
+    .list {
+        width: 998px;
+        margin: 45px auto;
+        margin-top: 0px; 
+    }
+    .list-main li{
+        display: inline-block;
+    }
+    /* 图片 */
+    .list-pic {
+        width: 396px;
+        height: 241px;
+    }
+    /* 列表内容 */
+    .list-main>.fr {
+        padding-right: 39px;
+        padding-top: 35px;
+    }
+    .list-content {
+        width: 527px;
+    }
+        /* 标题 内容*/
+    .list-title,.list-content {
+        font-family: PingFangSC-Regular;
+        color: #222629;
+        letter-spacing: 0;
+    } 
+    .list-title {
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .list-content {
+        text-indent: 2em;
+        font-size: 14px;
+        line-height: 24px;
+    }   
+        /* 详细信息 */
+    .list-details {
+        display: inline-block;
+        height: 36px;
+        width: 527px;
+        margin-top: 26px;
+        line-height: 36px;
+    } 
+    .author img {
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        margin-right: 11px;
+    }
+    .author span,.creattime,.thumbs-up,.see-num span {
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #222629;
+        letter-spacing: 0;
+    }
+    .creattime,.see-num {
+        color: rgba(34,38,41,0.7);
+    }
+    .creattime {
+        margin-left: 31px;
+    }
+    .thumbs-up span {
+        margin-left: 9px;
+    }
+    .thumbs-up img {
+        width: 15px;
+        height: 16px;
+        padding-bottom: 5px;
+    }
+    .see-num {
+        margin-left: 35px;
+    }
+    .see-num img {
+        width: 20px;
+        height: 15px;
+        padding-bottom: 5px;
+    }
+    .see-num span {
+        margin-left: 9px;
+    }
+ /* 文章列表结束 */
+ /* 正在加载 */
+ .loading span {
+    display: inline-block;
+    opacity: 0.4;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #222629;
+    letter-spacing: 0;
+ }
+ .loading {
+    opacity: 0.4;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #222629;
+    letter-spacing: 0;
+ }
+ .loading img {
+     height: 30px;
+     width: 30px;
+     margin-right: 10px;
+ }
+ .loading {
+     width: 105px;
+     margin: 0 auto;
+ }
+ /* 回到顶部 */
+ .backtop img{
+    width: 45px;
+    height: 45px;
+ }
+ .backtop {
+     position: fixed;
+     right: 136px;
+     bottom: 155px;
+ }
+ /* 下部分结束 */
+/* 页面主体部分结束 */

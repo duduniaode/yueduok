@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>写文章</title>
+</head>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/public.css">
+<link rel="stylesheet" href="../css/WriteArticle.css">
+<body>
+    <!-- 导航栏开始 -->
+    <div class="site-nav">
+            <div class="w">
+                <div class="fl">
+                    <b>APIS</b>
+                    <span class="Logo">悦读项目</span>
+                </div>
+                <div class="fr">
+                    <ul class="top-r">
+                        <!-- 未登录 style="display:none"-->
+                        <li class="top-login" id="top-login" >
+                            <a href="Login.html" class="top-r top-login">登录</a>
+                            <a href="Register.html" class="top-r top-reg">注册</a>
+                        </li>
+                        <!-- 已登录 -->
+                        <li class="user" id="top-user">
+                            <!-- 头像 -->
+                            <img src="" alt="" id="user-head">
+                            <!-- 姓名 -->
+                            <span class="username" id="username"></span>
+                            <!-- 下拉框 -->
+                            <div class="triangle" >
+                                <img src="../img/icon_arrow_down.png" alt="" id="triangle" >
+                                <ul class="triangle-set"  id="triangle-set">
+                                    <li id="owner-center">
+                                        <img src="../img/icon_user.png" alt="">
+                                        <a>
+                                            个人中心
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <img src="../img/icon_setting.png" alt="">
+                                        <a href="AccountSet.html">
+                                            账户设置
+                                        </a>
+                                    </li>
+                                    <li id="exit">
+                                        <img src="../img/icon_exit.png" alt="">
+                                        <a href="">
+                                            退出登录
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </li>
+                        <!-- <li><a href="" class="top-r">注册</a></li> -->
+                        <li>
+                            <div class="top-r top-publish" id="top-publish">
+                                <img src="../img/icon_publish.png" alt="">
+                                发布
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <!-- 导航栏结束 -->
+    <!-- 中心部分开始 -->
+    <div class="center">
+
+    
+        <!-- 图片开始 -->
+            <!-- 上传图片 -->
+        <div class="up-img" id="up-img" style="background-color: rgba(127,74,136,0.35)">
+            <label for="file-img">
+                <input type="file" name="" id="file-img" onchange="UploadPic()">
+                <img src="../img/icon_camrea.png" alt="" class="camrea" id="article-image">
+                <span class="upimg-word" id="upimg-word">请上传封面，支持3MB以内的JPG\PNG图片。</span>
+                
+                <!-- <img src="../img/img.jpg" alt="" class="article-image"  id="article-image"> -->
+                <span class="change-img" id="change-img" style="display:none"> <label for="file-img">更改图片</label></span>
+            </label>
+        </div>
+            <!-- 更改图片 ../img/img.jpg-->
+        <!-- <div class="article-img" id="article-img" style="display:none">
+
+            </div>
+            <div class="change-img">
+               
+            </div>
+        </div> -->
+        <!-- 图片结束 -->
+        <!-- 标题开始 -->
+        <div class="article-title">
+            <input type="text" id="title" placeholder="请输入标题">
+        </div>
+        <!-- 标题结束 -->
+        <!-- 文章正文开始 -->
+        <div class="article-body">
+            <textarea name="" id="body" placeholder="请输入正文"></textarea>
+        </div>
+        <!-- 文章正文结束 -->
+    </div>
+    <!-- 中心部分结束 -->
+    <!-- 脚注开始 -->
+    <footer>
+            <span>
+                    Copyright © 2017 apis.sh All Rights Reserved | 陕ICP备15013925号-3
+            </span>
+    </footer>
+    <!-- 脚注结束 -->
+    
+    
+    
+</body>
+<script src="../js/common.js"></script>
+
+<script src="../js/WriteArticle.js"></script>
+</html>

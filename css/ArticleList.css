@@ -1,0 +1,124 @@
+
+/* 页面主体部分开始 */
+ /* 文章列表开始 */
+    .list>li {
+        display: inline-block;
+        width: 998px;
+        height: 241px;
+        margin-bottom: 20px;
+        background: #FFFFFF;
+        border: 1px solid #F0E9F1;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+        border-radius: 2px;
+    }
+    .list {
+        width: 998px;
+        margin: 45px auto;
+    }
+    .list-main li{
+        display: inline-block;
+    }
+    /* 图片 */
+    .list-pic {
+        width: 396px;
+        height: 241px;
+    }
+    /* 列表内容 */
+    .list-main>.fr {
+        padding-right: 39px;
+        padding-top: 35px;
+    }
+    .list-content {
+        width: 527px;
+    }
+        /* 标题 内容*/
+    .list-title,.list-content {
+        font-family: PingFangSC-Regular;
+        color: #222629;
+        letter-spacing: 0;
+    } 
+    .list-title {
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .list-content {
+        text-indent: 2em;
+        font-size: 14px;
+        line-height: 24px;
+    }   
+        /* 详细信息 */
+    .list-details {
+        display: inline-block;
+        height: 36px;
+        width: 527px;
+        margin-top: 26px;
+        line-height: 36px;
+    } 
+    .author img {
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        margin-right: 11px;
+    }
+    .author span,.creattime,.thumbs-up,.see-num span {
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #222629;
+        letter-spacing: 0;
+    }
+    .creattime,.see-num {
+        color: rgba(34,38,41,0.7);
+    }
+    .creattime {
+        margin-left: 31px;
+    }
+    .thumbs-up span {
+        margin-left: 9px;
+    }
+    .thumbs-up img {
+        width: 15px;
+        height: 16px;
+        padding-bottom: 5px;
+    }
+    .see-num {
+        margin-left: 35px;
+    }
+    .see-num img {
+        width: 20px;
+        height: 15px;
+        padding-bottom: 5px;
+    }
+    .see-num span {
+        margin-left: 9px;
+    }
+ /* 文章列表结束 */
+ /* 正在加载 */
+ .loading span {
+    display: inline-block;
+    opacity: 0.4;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #222629;
+    letter-spacing: 0;
+ }
+ .loading img {
+     height: 30px;
+     width: 30px;
+     margin-right: 10px;
+ }
+ .loading {
+     width: 105px;
+     margin: 0 auto;
+ }
+ /* 回到顶部 */
+ .backtop img{
+    width: 45px;
+    height: 45px;
+ }
+ .backtop {
+     position: fixed;
+     right: 136px;
+     bottom: 155px;
+ }
+/* 页面主体部分结束 */

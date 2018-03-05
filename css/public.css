@@ -1,0 +1,166 @@
+    /*公共类*/
+    .w {
+        /*版心 提取 */
+        width: 94.6%;
+        margin: 0 auto;
+        /* padding: 39px auto; */
+    }
+    .site-nav{
+        width: 100%;
+        height: 60px;
+        background-color: #7F4A88;
+        color: white;
+        box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.20);
+        line-height: 60px;
+        /* padding: 39px auto; */
+    }
+    .site-nav li {
+        /* display: inline-block; */
+        list-style: none;
+    }
+    .fl {
+        float: left
+    }
+    .fr {
+        float: right
+    }
+    .al {
+        text-align: left
+    }
+    .ac {
+        text-align: center
+    }
+    .ar {
+        text-align: right
+    }
+    .hide {
+        display: none
+    }
+    .show{
+        display: block;
+    }
+    /* 导航栏开始 */
+        /* 导航栏左侧开始 */
+        .w .fl{
+            font-size: 24px;
+        }
+        .Logo{
+            margin-left: 18px;
+            border-left: 2px solid #fff;
+            padding-left: 13px;
+            color: #fff;
+        }
+        /* 导航栏左侧结束 */
+        /* 导航栏右侧开始 */
+        .top-r a{
+            color: white;
+        }
+        .top-r>li{
+            display: inline-block;
+        }
+            /* 未登录状态开始 */
+        .top-login,.top-reg{
+            font-size: 14px;
+        }
+        .top-write,.top-publish{
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .top-write img,.top-publish img{
+            width: 19px;
+            height: 19px;
+            /* margin-right: 0px; */
+            margin-top: -2px;
+        }
+        .top-reg{
+            margin-right: 36px;
+        }
+        .top-login{
+            margin-right: 25px;
+        }
+            /* 未登录状态结束 */
+            /* 登录状态开始 */
+        .user>img{
+            widows: 36px;
+            height: 36px;
+            border-radius: 50%;
+        }
+        .top-r{
+            font-size: 16px;
+        }
+        .triangle{
+            display: inline;
+            margin-left: 20.5px;
+            margin-right: 47px;
+        }
+        .triangle-set li {
+            cursor: pointer;
+        }
+        .username{
+            margin-left: 8px;
+        }
+            /* 下拉框开始 */
+            .triangle-set{
+                position: absolute;
+                top: 49.3px;
+                right: 141px;
+                width: 109px;
+                height: 124.7px;
+                background-color: #fff;
+                border: 1px solid #F2EEF3;
+                box-shadow: 0 2px 6px 0 rgba(0,0,0,0.10);
+            }
+            .triangle-set li{
+                line-height: 40px;
+                padding-left: 18px;
+            }
+            .triangle-set li a{
+                font-family: PingFangSC-Regular;
+                font-size: 13px;
+                color: #222629;
+                letter-spacing: 0;
+            }
+            #triangle:hover{
+                transform: rotate(180deg);
+            }
+            #triangle {
+                transition: all 0.2s;
+            }
+            .triangle:hover .triangle-set{
+                opacity: 1;
+            }
+            .triangle-set {
+                transition: all 0.5s;
+                opacity: 0;
+            }
+            /* 下拉框结束 */
+        /* 登录状态结束 */
+            
+        /* 导航栏右侧结束 */
+    /* 导航栏结束 */
+
+    /* 页面主体部分开始 */
+        .content {
+            margin: 0 auto;
+        }    
+    /* 页面主体部分开始 */
+
+    /* 页脚开始 */
+        footer {
+            /* margin-top: 377px; */
+            margin-top: 55px;
+            border-top: 1px solid #7F4A88;
+            height: 66px;
+            line-height: 66px;
+            text-align: center;
+        }
+        footer span{
+            font-family: PingFangSC-Regular;
+            font-size: 13px;
+            color: #222629;
+            letter-spacing: 0;
+
+            
+        }
+
+    /* 页脚结束 */

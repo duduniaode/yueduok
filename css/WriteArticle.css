@@ -1,0 +1,111 @@
+
+    /* 导航栏部分开始 */
+   
+        
+    /* 导航栏部分结束 */
+    /* 中心部分开始 */
+    .center{
+        /* width: 998px; */
+        width: 996px;     
+        height: 789px;
+        background: #FFFFFF;
+        border: 1px solid #F0E9F1;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+        border-radius: 2px;
+        margin: 57px auto;
+        /* padding: 31px 52px; */
+        /* padding-left: 31px; */
+    }
+        /* 添加图片开始 */
+    .up-img{
+        height: 287px;
+        width: 998px;
+        /* background-color: rgba(127,74,136,0.35); */
+    }
+    #file-img{
+        position: absolute;
+        left: -9999px;
+    }
+     .camrea{
+        width: 55px;
+        height: 55px;
+        margin-top: 92px;
+        margin-left: 472px;
+    }
+     .upimg-word{
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #222629;
+        letter-spacing: 0;
+        display: block;
+        margin-top: 10px;
+        margin-left: 366px;
+    }
+        /* 添加图片结束 */
+        /* 更改图片开始 */
+    .article-image{
+        width: 896px;
+        height:257px;
+        margin: 30px 52px;
+        position: relative;
+    }    
+    .article-img{
+        
+    }    
+     .change-img{
+        height: 40px;
+        width: 896px;
+        line-height: 41.8px;
+        text-align: center;
+        background-color: rgba(34,38,41,0.5);
+        position: absolute;
+        /* margin-top: -41.8px; */
+        margin-top: -70px;
+        margin-left: 52px;
+
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        
+    }
+        /* 更改图片结束 */
+        /* 文章标题开始 */
+    .article-title{
+         /* text-indent: 1em; */
+         height: 40px;
+         width: 895px;
+         text-align: left;
+         line-height: 40px;
+         border-bottom: 1px solid #BFA4C3;
+         margin-left: 52px;
+         margin-top: 10px;
+    }    
+    .article-title input{
+         font-family: PingFangSC-Regular;
+         font-size: 18px;
+         color: #6C6F71;
+         letter-spacing: 0;
+    }
+        /* 文章标题结束 */
+        /* 文章内容开始 */
+    .article-body textarea{
+        width: 895px;
+        height: 382px;
+        border: 1px solid rgba(127,74,136,0.5);
+        margin-left: 52px;
+        margin-top: 19px;
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        color: #6C6F71;
+        letter-spacing: 0;
+        padding-top: 1em;
+        text-indent: 1em;
+    }   
+        /* 文章内容结束 */
+        
+    /* 中心部分结束 */
+
+footer{
+    margin-top: 47px;
+}

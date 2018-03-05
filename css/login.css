@@ -1,0 +1,140 @@
+    .all{
+        height: 100%;
+        width: 100%;
+        background: url('../img/bg_signin.jpg') no-repeat;
+        margin: 0 auto;
+        background-size: 100% 100%;
+    }
+/* 导航栏开始 */
+    .site-nav{
+        background-color: rgba(127,74,136,0.3);
+    }
+/* 导航栏结束 */
+    
+/* 中心部分开始 */
+    /* 公共部分开始 */
+   
+        .center{
+            height: 510px;
+            width: 567px;
+            /* margin-top: 165px; */
+            margin:165px auto;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+        }    
+        .center-title {
+        /* padding: 53px 203px 49px 206px; */
+            padding-top: 53px;
+            /* padding-left: 170px; */
+            padding-bottom: 49px;
+            /* padding: 50px 45px ; */
+            width: 200px;
+            margin: 0 auto;
+        }
+        .center-title a,.center-title span{
+            /* margin-right: 66px; */
+            font-family: PingFangSC-Regular;
+            font-size: 22px;
+            color: rgba(255,255,255,0.7);
+            letter-spacing: 0;
+        }
+        .center-title .logining,.center-title .reging{
+            width: 90px;
+            padding-bottom:8px; 
+            padding-left: 22px;
+            padding-right: 22px;
+            text-align: center;
+            color: rgba(127,74,136,0.7);
+            border-bottom: 3px solid #7F4A88;
+        }
+        .input input,.input button{
+            width: 410px;
+            height: 42px;
+            margin-left: 77px;
+            margin-top: 17px;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 5px;
+            font-family: ArialMT;
+            font-size: 14px;
+            color: rgba(255,255,255,1);
+            letter-spacing: 0;
+        }
+        .input input{
+            /* opacity: 0; */
+            background-color:rgba(1,1,1,0); 
+            font-family: ArialMT;
+            font-size: 14px;
+            color: rgba(255,255,255,0.8);
+            letter-spacing: 0;
+        }
+        /* 验证码 */
+        .code-div ul{
+            width: 487px;
+        }
+        .input li {
+            display: inline-block;
+            list-style: none;
+        }
+        .input li>input {
+            width: 289px;
+        }
+        .input li>button {
+            width: 103px;
+            margin-left: 0px;
+        }
+        button {
+            background: #7f4a88;
+            border-radius: 5px;
+            font-family: PingFangSC-Regular;
+            font-size: 18px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            cursor: pointer;
+        }
+        .findpwd-div,.tologin-div {
+            width: 410px;
+            margin: 0 auto;
+        }
+        .findpwd-div span,.tologin-div span {
+            display: inline-block;
+            width: 410px;
+            margin-top: 21px;
+            text-align: center;
+            /* margin-left: 250px;  */
+        }
+        .find-pwd,.tologin{
+            font-family: PingFangSC-Regular;
+            font-size: 13px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+        }
+    /* 公共部分结束 */
+    /* 特有部分开始 */
+       /* 登录部分开始 */
+        .login-div .input input {
+           margin-top: 40px;
+       }
+        .input .btn-login {
+            margin-top: 70px;
+        }
+       /* 登录部分结束 */ 
+       /* 注册部分开始 */
+       /* 注册部分结束 */
+       /* 找回密码开始 */
+     
+       /* 找回密码结束 */
+    /* 特有部分结束 */
+/* 中心部分结束 */
+
+/* 页脚部分开始 */
+    footer{
+        margin-top: 55px;
+        border-top: 1px solid #fff;
+    }
+    footer span{
+        color: #fff;
+    }
+/* 页脚部分结束 */
+    
+    
+    

@@ -1,0 +1,191 @@
+
+/* 页面主体部分开始 */
+.main{
+    width: 908px;
+    margin-left: 288px;
+    margin-top: 67px;
+}
+/* 文章标题开始 */
+ .title-ul li{
+     display: inline-block;
+     height: 25px;
+     line-height: 25px;
+ }
+ .share a>img{
+     width: 13.5px;
+     height: 15px;
+     margin-left: 81px;
+     margin-right: 9.5px;
+     margin-top: -2px;
+ }
+ .share {
+     position: relative;
+ }
+ /* 二维码 */
+ .qrcode,.qrcode img {
+     width: 147px;
+     height: 191px;
+ }
+ .qrcode {
+    position: absolute;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.20);
+    top: 40px;
+    left: 30px;
+ }
+ .title-ul>li>span{
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #222629;
+    letter-spacing: 0;
+ }
+ .title-ul a{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(127,74,136,0.7);
+    letter-spacing: 0;
+ }
+ 
+/* 文章标题结束 */
+/* 文章信息开始 */
+ .article-information{
+     margin-top: 24px;
+     height: 36px;
+     line-height: 36px;
+ }
+ .article-information li{
+     display: inline-block;
+ }
+ .head-img img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 11px;
+ }
+ .head-img,.creat-time,.zannum,.wechat,.article-body{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+ }
+ .creat-time{
+     color: rgba(34,38,41,0.7);
+     margin-left: 20px;
+     margin-right: 99px;
+ }
+ .zan img{
+     margin-top: -6px;
+ }
+ .zan .zannum{
+     color:#7F4A88;
+     margin-left: 11px;
+     margin-right: 64px;
+ }
+/* 文章信息结束 */
+/* 文章图片开始 */
+ .article-pic,.article-pic img{
+     width: 906px;
+     height: 375px;
+     margin-top: 17px;
+ }
+/* 文章图片结束 */
+/* 文章内容开始 */
+ .article-body{
+    margin-top: 40px;
+    line-height: 24px;
+ }
+/* 文章内容结束 */
+/* 文章点评开始 */
+ .comment{
+     margin-top: 44px;
+     height: 48px;
+     /* line-height: 48px; */
+     border-top: 1px solid rgba(127,74,136,0.5);
+     padding-top: 31px;
+
+     font-family: PingFangSC-Regular;
+     font-size: 14px;
+     color: #222629;
+     letter-spacing: 0;
+ }
+ .write-comment textarea{
+     /* margin-top: 28px; */
+     height: 103px;
+     width: 907px;
+     background: rgba(127,74,136,0.2);
+     border-radius: 5px;
+     border: none;
+     text-indent: 1em;
+     padding-top: 1em;
+
+     
+     font-family: PingFangSC-Regular;
+     font-size: 14px;
+     color: rgba(34,48,41,0.7);
+     letter-spacing: 0;
+ }
+ .button{
+     width: 88px;
+     height: 36px;
+     margin-top: 22px;
+     margin-left: 825px;
+     background: rgba(127,74,136,1);
+     border-radius: 4px;
+     font-family: PingFangSC-Regular;
+     font-size: 14px;
+     color: #FFFFFF;
+     letter-spacing: 0;
+     line-height: 14px; 
+     cursor: pointer;
+ }
+/* 文章点评结束 */
+/* 文章评论开始 */
+ .review-title{
+     padding-top: 28px;
+     padding-bottom: 21px;
+
+     font-family: PingFangSC-Regular;
+     font-size: 14px;
+     color: #222629;
+     letter-spacing: 0;
+ }
+ .review-list{
+     padding-top: 20px;
+     padding-bottom: 28px;
+    border-top: 1px solid rgba(127,74,136,0.5);
+    
+ }
+ .review-list li{
+     padding-bottom: 20px;
+     display: inline-block;
+ }
+ .review-list .headimg{
+     height: 36px;
+     width: 36px;
+     border-radius: 50%;
+     margin-right: 11px;
+ }
+ /* 赞图片 */
+ .zanpic {
+     padding-bottom: 7px;
+     margin-right: 10px;
+ }
+ .review-list a,.review-list span,.review-body{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+ }
+ .review-list .time{
+     color: rgba(34,38,41,0.7);
+     margin-left: 21px;
+     margin-right: 33px;
+ }
+ .review-body{
+     margin-top: 9px;
+     margin-left: 47px;
+ }
+/* 文章评论结束 */
+/* 页面主体部分结束 */
+footer{
+    margin-top: 57px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+</head>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/public.css">
+<link rel="stylesheet" href="../css/login.css">
+
+<body>
+   <div class="all">
+    <!-- 导航栏开始 -->
+    <div class="site-nav">
+        <div class="w">
+            <div class="fl">
+                <b>APIS</b>
+                <span class="Logo">悦读项目</span>
+            </div>
+        </div>
+    </div>
+    <!-- 导航栏结束 -->
+    <!-- 中心部分开始 -->
+    <div class="center">
+       <!-- 注册部分开始 -->
+        <div class="register-div">
+            <div class="center-title">
+                <span class="fl"><a href="Login.html" id="" class="login">登录</a></span>
+                <span class="fr"><a href="#" id="" class="reging">注册</a></span>
+            </div>
+            <div class="content">
+                <div class="input">
+                    <input type="text" name="txtphone" id="txtphone" placeholder="请输入手机号码">
+                </div>
+                <!-- 短信验证码 -->
+                <div class="input code-div">
+                    <ul>
+                        <li>
+                            <input type="text" id="txtcode" placeholder="请输入短信验证码">
+                        </li>
+                        <li class="fr">
+                            <button id="btn-code">获取验证码</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="input">
+                    <input type="password" name="txtpassword" id="txtpassword" placeholder="请输入6~32位密码">
+                </div>
+                <!-- 重复密码 -->
+                <div class="input">
+                    <input type="password" name="txtpassword" id="txtpassword2" placeholder="请重复密码">
+                </div>
+                <div class="input">
+                    <button type="button" class="btn-register" id="btn-register">注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册</button>
+                </div>
+                <div class="tologin-div">
+                    <span><a href="Login.html" class="tologin">已有账户，马上登录</a></span>
+                </div>
+            </div>
+        </div>
+       <!-- 注册部分结束 -->
+    <!-- 中心部分结束 -->
+    </div>
+    <!-- 页脚开始 -->
+    <footer>
+        <span>
+                Copyright © 2017 apis.sh All Rights Reserved | 陕ICP备15013925号-3
+        </span>
+    </footer>
+    <!-- 页脚结束 -->
+   </div>
+</body>
+<script src="../js/common.js"></script>
+<script src="../js/getcode.js"></script>
+<script src="../js/register.js"></script>
+</html>
